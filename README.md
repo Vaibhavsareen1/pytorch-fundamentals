@@ -17,7 +17,6 @@ pytorch-fundamentals/
 ├── src/            # core implementations & importable code
 ├── notebooks/      # explanations & intuition
 ├── experiments/    # controlled experiments
-├── tests/          # validation
 ├── benchmarks/     # comparison with PyTorch
 └── requirements.txt
 ```
@@ -34,9 +33,6 @@ Used for exploration, intuition building, and analysis of concepts implemented i
 
 ### `experiments/`
 Houses structured experiments designed to evaluate the impact of different design choices, such as optimizer behavior, initialization strategies, and activation functions.
-
-### `tests/`
-Contains validation logic to ensure correctness of implementations, often by comparing behavior against PyTorch equivalents.
 
 ### `benchmarks/`
 Focused on performance and behavioral comparisons between custom implementations and PyTorch’s native implementations.
