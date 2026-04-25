@@ -3,7 +3,7 @@ from typing import Self
 
 class SigmoidActivationCustom(torch.nn.Module):
     """
-    Class that represents implementation of Sigmoid non linear activation function
+    Class that represents implementation of Sigmoid non linear activation function.
 
     Formula:
     output = 1 / (1 + exp(-input))
@@ -16,7 +16,7 @@ class SigmoidActivationCustom(torch.nn.Module):
         :returns: instance of class: `SigmoidActivationCustom`
         """
 
-        pass
+        super().__init__()
 
     def forward(self, X: torch.Tensor) -> torch.Tensor:
         """
