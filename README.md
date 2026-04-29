@@ -40,6 +40,10 @@ Focused on performance and behavioral comparisons between custom implementations
 ### `requirements.txt`
 Lists dependencies required to run the implementations, experiments, and notebooks.
 
+**Note**:
+- Often results of experiments will be stored in `results/` which is part of `.gitignore`. 
+- If you need any experiment results connect with me if I have them available on me I will provide them to you.
+
 ---
 
 ## Philosophy
